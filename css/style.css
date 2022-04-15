@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+
+/*-------------------Top of the page-------------------------------*/
+
+
+
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    padding: 5px 20px;
+    background-color: #00ff26;
+    border: 1px #000000 solid;
+    border-radius: 4px;
+    transition-duration: 0.3s;
+    margin: 50px auto;
+}
+
+button:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+    transition-duration: 0.3s;
+}
+
+
+
+/*-------------------Body of the page-------------------------------*/
+
+
+
+
+#entry_point {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#loadingMsg {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+/*-------------------Results-------------------------------*/
+
+
+
+.activity {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 500px;
+    background-color: #00ff6a;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    margin: 0 20px 20px 0;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+.activity:hover {
+    background-color: #00fffb;
+}
+
+.activity_main,
+.activity_data {
+    display: block;
+    width: 100%;
+}
+
+.activity_data h2 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 5px;
+}
+
+.activity_main p {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .activity {
+        margin: 0 0 20px;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .activity {
+        margin: 0 0 20px;
+        width: 90%;
+    }
+}
